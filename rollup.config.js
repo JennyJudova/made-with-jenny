@@ -21,7 +21,7 @@ export default {
     /** Enable using HTML as rollup entrypoint */
     html({
       minify: true,
-      injectServiceWorker: false,
+      injectServiceWorker: true,
       serviceWorkerPath: 'dist/sw.js',
     }),
     /** Resolve bare module imports */
